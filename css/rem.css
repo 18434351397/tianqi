@@ -1,0 +1,36 @@
+/*
+* @Author: che
+* @Date:   2018-08-08 13:00:48
+* @Last Modified by:   che
+* @Last Modified time: 2018-08-08 13:01:16
+*/
+@media screen and (min-width: 360px){
+	html{
+		font-size: 48px;
+	}
+}
+@media screen and (min-width: 375px){
+	html{
+		font-size: 50px;
+	}
+}
+@media screen and (min-width: 412px){
+	html{
+		font-size: 55px;
+	}
+}
+@media screen and (min-width: 750px){
+	html{
+		font-size: 100px;
+	}
+}
+@media screen and (min-width: 768px){
+	html{
+		font-size: 102px;
+	}
+}
+@media screen and (min-width: 1024px){
+	html{
+		font-size: calc(1024/750*100px);
+	}
+}
